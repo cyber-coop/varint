@@ -82,7 +82,7 @@ mod tests {
 
     #[test]
     fn test_varint_decode() {
-        assert_eq!(VarInt::decode(vec![0xfd, 3, 2]).unwrap(), 515);
+        assert_eq!(VarInt::decode(&vec![0xfd, 3, 2]).unwrap(), 515);
     }
 
     #[test]

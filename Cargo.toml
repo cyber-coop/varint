@@ -1,8 +1,10 @@
 [package]
-name = "varint"
+name = "bitcoin-varint"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
+authors = ["ethicnology", "Lola Rigaut-Luczak <me@laflemme.lol>"]
+description = "Varint lib used in bitcoin and bitcoin-like p2p message protocol."
+readme = "README.md"
+repository = "https://github.com/cyber-coop/varint"
+license = "GPL-3.0-only"
+keywords = ["varint", "bitcoin", "dogecoin", "litecoin", "namecoin"]
